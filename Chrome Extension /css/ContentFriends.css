@@ -1,0 +1,81 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 11; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* opacity */
+}
+
+#modalCode{
+  width: 80vw;
+  height: 100%;
+  overflow: auto;
+  z-index: 30;
+  background-color: #eff0f1;
+  border: none;
+}
+
+/* Modal Content */
+.modalContent {
+  background-color: #fefefe; 
+  /* background-color: #eff0f1; */
+  padding: 20px;
+  border: 0.6rem solid #888;
+  border-radius: 0.6rem;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+/* The Close Button */
+.modalClose {
+  color: #800;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 12vw;
+}
+
+.modalClose:hover,
+.modalClose:focus {
+  color: #888;
+  text-decoration: none;
+  cursor: pointer;
+}
+#showCodeButton{
+  cursor: pointer;
+}
+.modalCodeHeader{
+  color: #008;
+  font-size: 1.75rem;
+  font-weight: 900;
+  margin: 0.2em 0;
+  position: relative;
+}
+
+/* Heading to Modal Code Design  */
+#HandleModal{
+  color: #800;
+  font-weight: 700;
+  font-family:  monospace;
+}
+#TextModal{
+  color: #080;
+  font-weight: bold;
+  font-family:  monospace;
+}
+
+/* Design to Codes added to Modal  */
+.codeSnippet {
+  color: #008;
+  font-weight: 700;
+  font-family:  monospace;
+    font-size: 105%;
+}

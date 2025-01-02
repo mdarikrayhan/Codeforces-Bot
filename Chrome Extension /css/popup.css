@@ -1,0 +1,45 @@
+/* Importing Google Font of Balthazar */
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');
+
+/* PopUp Content to Extension Desig  */
+.popUpContainer {
+  width: 13rem;
+  height: 10rem;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Balthazar', serif;
+}
+
+/* Name Plate of Pop-Up Design  */
+.popUpNamePlate {
+  font-size: 2rem;
+}
+
+#popUpNameFetch {
+  color: #000001;
+}
+
+#popUpNameCodes {
+  color: #425E9D;
+}
+
+#popUpLogo {
+  width: 4rem;
+}
+
+/* CodeForces Handle of Developer Design  */
+#developerContact {
+  font-weight: 500;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+#developerHandle {
+  border: none;       /* Avoiding Button Border */
+  background: none;  /* Avoiding Button Background  */
+  color: blue;
+  font-weight: 600;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
